@@ -4,7 +4,7 @@ Compute MD5 message digests in Elm.
 
 ## Quick Start
 
-This library exposes just one function (`hex`) which takes one `String` input and returns the 128-bit MD5
+This library exposes just one function, `hex`, which takes a `String` input and returns the 128-bit MD5
 digest as a `String` of 32 hexadecimal characters.
 
 ```elm
