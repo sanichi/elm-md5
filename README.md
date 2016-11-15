@@ -26,7 +26,7 @@ myHex input =
         MD5.hex myInput
 ```
 
-# Versioning
+## Versioning
 
 In the dependencies section of `elm-package.json` use the following. For Elm 0.17:
 
