@@ -25,3 +25,20 @@ myHex input =
     in
         MD5.hex myInput
 ```
+
+# Versioning
+
+In the dependencies section of `elm-package.json` use the following. For Elm 0.17:
+
+```json
+"sanichi/md5": "1.0.0 <= v < 1.0.1"
+```
+
+For Elm 0.18:
+
+```json
+"sanichi/md5": "1.0.1 <= v < 2.0.0"
+```
+
+I would rather have bumped the version to 2.0.0 for the Elm 0.18 upgrade but the package publishing tools
+prevented this since the API had not changed.
