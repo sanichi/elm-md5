@@ -1,5 +1,5 @@
 {
-    "version": "2.0.0",
+    "version": "1.0.1",
     "summary": "Compute MD5 message digests in pure Elm",
     "repository": "https://github.com/sanichi/elm-md5.git",
     "license": "BSD3",
