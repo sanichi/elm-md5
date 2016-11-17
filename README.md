@@ -28,7 +28,7 @@ myHex input =
 
 ## Versioning
 
-In the dependencies section of `elm-package.json` use the following. For Elm 0.17:
+In the dependencies section of `elm-package.json` use the following. For Elm 0.17.1:
 
 ```json
 "sanichi/md5": "1.0.0 <= v < 1.0.1"
