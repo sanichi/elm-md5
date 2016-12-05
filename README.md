@@ -30,20 +30,12 @@ myHex input =
 
 There are versions of this library for Elm 0.17.1 and 0.18.
 
-Install the package as normal for Elm 0.18 (elm package install sanichi/elm-md5).
+Install the package as normal for Elm 0.18 (`elm package install sanichi/elm-md5`).
 
 However, for Elm 0.17.1, there is an as yet undiagnosed problem with the normal method of installation.
-It was intended that it could be installed by first setting the version range in `elm-package.json` to:
-
-```json
-"sanichi/elm-md5": "1.0.0 <= v < 1.0.1"
-```
-
-but this doesn't work for some reason.
-
 Please use the following workaround:
 
 1. Remove any dependency on `sanichi/elm-md5` from your `elm-package.json` if you haven't already done so.
-1. Grab a copy of the [1.0.0 version of MD5.elm](https://raw.githubusercontent.com/sanichi/elm-md5/1.0.0/src/MD5.elm) (the only file you need) and add it to your project's Elm files.
+1. Grab a copy of the 1.0.0 version of [MD5.elm](https://raw.githubusercontent.com/sanichi/elm-md5/1.0.0/src/MD5.elm) (the only file you need) and add it to your project's Elm files.
 1. Make sure the file has been copied correctly (it's MD5 digest should be `101fd0190906aa0febfae987b86a03e1`).
 1. Then use as normal (`import MD5` etc).
