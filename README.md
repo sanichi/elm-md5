@@ -28,7 +28,7 @@ myHex input =
 
 ## Versioning
 
-There are versions of this library for Elm 0.17.1 and 0.18. As I probably won't be maintaining this module any longer, for future Elm versions please check out a fork of this project, truqu/elm-md5.
+There are versions of this library for Elm 0.17.1 and 0.18. As I probably won't be maintaining this module any longer, for future Elm versions (or if you just want something that runs faster) please check out a fork of this project, truqu/elm-md5.
 
 Install the package as normal for Elm 0.18 (`elm package install sanichi/elm-md5`).
 
